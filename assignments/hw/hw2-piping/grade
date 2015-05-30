@@ -1,1 +1,48 @@
-/ 100
+45/ 100
+Last update Mon May 18 14:17:45 2015 -0700
+-10: late
+
+-----------------------------------------------------
+[1]  Input redirection from an existant file (25)
+-----------------------------------------------------
+[2]  Output redirection (>) to an non-existant file (15)
+-----------------------------------------------------
+[3]  Output append (>>) to an existing file (10)
+  -10: Does not work!
+celik$ initial
+celik$ 
+-----------------------------------------------------
+[4]  Command with one pipe (15)
+  -15: Does not work!
+celik$ 
+-----------------------------------------------------
+[5]  Command with more than one pipe (15)
+  -15: Does not work!
+celik$ 
+-----------------------------------------------------
+[6]  Input redirection with piping (5)
+  -5: Does not work!
+celik$ 
+-----------------------------------------------------
+[7]  Output redirection and piping (5)
+  -5: Does not work!
+celik$ 
+-----------------------------------------------------
+[8]  Input redirection, output redirection, and piping (10)
+  -10: Does not work!
+celik$ 
+-----------------------------------------------------
+  Extra 1: <<< (20)
+celik$ "extracredit1works"
+
+-----------------------------------------------------
+  Extra 2 (20)
+celik$ extra2_1r 1
+celik$ extra2_1r 1
+extra2_1a 1
+celik$.*2> test missing
+-10: $.*2>> test missing
+  -5: 1> Does not work!
+  -5: 1>> Does not work!
+  -5: 2> Does not work!
+  -5: 2>> Does not work!
