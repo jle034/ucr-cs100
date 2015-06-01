@@ -1,4 +1,4 @@
-50/ 100
+95/ 100
 Last update Mon May 18 14:17:45 2015 -0700
 -10: late
 
@@ -8,16 +8,12 @@ Last update Mon May 18 14:17:45 2015 -0700
 [2]  Output redirection (>) to an non-existant file (15)
 -----------------------------------------------------
 [3]  Output append (>>) to an existing file (10)
-  -10: Does not work!
-celik$ initial
 celik$ 
 -----------------------------------------------------
 [4]  Command with one pipe (15)
-  -15: Does not work!
 celik$ 
 -----------------------------------------------------
 [5]  Command with more than one pipe (15)
-  -15: Does not work!
 celik$ 
 -----------------------------------------------------
 [6]  Input redirection with piping (5)
